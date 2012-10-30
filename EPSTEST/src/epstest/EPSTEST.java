@@ -25,5 +25,9 @@ public class EPSTEST {
         ergebnis = zahl1 + zahl2;
         
         System.out.printf("%d", ergebnis);
+        
+        for (int i = 0; i < 10; i++) {
+            System.out.append("Hallo Java");
+        }
     }
 }
